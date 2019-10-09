@@ -1,0 +1,90 @@
+/* 초기화 */
+body {margin: 0px;padding: 0px;width:100%;}
+
+/* header */
+header#top {width: auto;}
+div#header { width:1200px; margin:auto; /*border:red solid 1px;*/}
+div#header > div.main_logo {float: left; /*border:blue solid 1px;*/}
+div#header > div.main_logo > a > img {width: 300px;}  /* logo img */
+
+/* nav */
+nav ul {list-style: none;}
+nav > ul > li {float: left; 
+    padding:50px;
+    /*border: orchid 1px solid;*/}
+nav > ul ul {   /* 상세메뉴 */
+    /*border:red 1px solid;*/
+    padding-left: 0;
+    /* 평상시에 서브메뉴 안보이도록 하기 */
+    display: none;
+    position:absolute;
+    /*z-index: 2;*/
+}
+nav > ul > li:hover ul {
+    display: block; /* 마우스 커서 올리면 서브메뉴 보이게 하기 */ 
+}
+/* nav 글씨 꾸미기 */
+nav {font-weight: bold;}
+nav > ul > li > a {text-decoration: none;color:black;}
+nav > ul > li > a:active {text-decoration: none;color:black;}
+nav > ul > li > a:visited {text-decoration: none;color:black;}
+nav > ul > li > ul > li > a {text-decoration: none;color:black;}
+nav > ul > li > ul > li > a:active {text-decoration: none;color:black;}
+nav > ul > li > ul > li > a:visited {text-decoration: none;color:black;}
+
+/* section 1*/
+section.main_section {width : 100%;}
+section.main_section > img {width: 100%; height: 100%;}
+
+/* section 2 */
+section.section2 {width:100%; padding-top: 60px;}
+section.section2 > div { /* img box 중앙 정렬 위한 box */
+    /*display: inline-block;*/
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    height: 490px;
+}
+/* main */
+div.img_frame {
+    float: left;
+    width: 350px;
+    margin: 20px;
+}
+div.img_frame > img {
+    margin: 3px;
+    width:100%; /*290px;*/
+    height: 100%; /*400px;*/
+}
+section.section3 {
+    background-color:orange; 
+    clear: both; /* float 해제 */
+    width:100%;
+    height: 200px;
+}
+
+/* menu */
+/* menu line border */
+section.menu_body > div {width:100%;height:300px; border:1px solid red;}
+
+
+
+
+/***********************************************/
+/*
+    footer 전 영역 공통
+
+*/
+/* footer */
+footer {
+    background-color:rgb(56, 56, 56); 
+    clear: both; /* float 해제 */
+    width:100%;
+    height: 250px;
+}
+footer > div.box_in_foot {
+    width:1200px;margin: auto;
+    padding:20px; color: whitesmoke;
+}
+/* 주소 등 footer 프로필 */
+footer > div.box_in_foot > div {text-align: center;}
