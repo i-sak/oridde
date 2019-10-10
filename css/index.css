@@ -24,8 +24,8 @@ nav > ul > li:hover ul {
     display: block; /* 마우스 커서 올리면 서브메뉴 보이게 하기 */ 
 }
 /* nav 글씨 꾸미기 */
-nav {font-weight: bold;}
-nav > ul > li > a {text-decoration: none;color:black;}
+/* nav > ul > li > a {} */
+nav > ul > li > a {text-decoration: none;color:black;font-weight: bold;}
 nav > ul > li > a:active {text-decoration: none;color:black;}
 nav > ul > li > a:visited {text-decoration: none;color:black;}
 nav > ul > li > ul > li > a {text-decoration: none;color:black;}
