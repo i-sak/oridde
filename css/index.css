@@ -37,17 +37,19 @@ section.main_section {width : 100%;}
 section.main_section > img {width: 100%; height: 100%;}
 
 /* section 2 */
-section.section2 {width:100%; padding-top: 60px;}
+section.section2 {width:100%; padding-top: 10px;}
 section.section2 > div { /* img box 중앙 정렬 위한 box */
-    /*display: inline-block;*/
+    display: inline-block;
     margin: auto;
     text-align: center;
-    width: 1200px;
-    height: 490px;
+    /*width: 1200px;
+    /*height: 490px;*/
 }
 /* main */
 div.img_frame {
-    float: left;
+    display: inline-block;
+    /*float: left;*/
+    text-align: center;
     width: 350px;
     margin: 20px;
 }
@@ -73,7 +75,6 @@ section.menu_body > div {width:100%;height:300px; border:1px solid red;}
 /***********************************************/
 /*
     footer 전 영역 공통
-
 */
 /* footer */
 footer {
@@ -83,7 +84,7 @@ footer {
     height: 250px;
 }
 footer > div.box_in_foot {
-    width:1200px;margin: auto;
+    /*width:1200px;margin: auto;*/
     padding:20px; color: whitesmoke;
 }
 /* 주소 등 footer 프로필 */
