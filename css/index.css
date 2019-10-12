@@ -5,7 +5,7 @@ body {margin: 0px;padding: 0px;width:100%;}
 한컴 윤고딕 230 */
 @font-face {
     font-family: "HANYGO230";
-    src: url("font/HANYGO230.ttf") format("truetype");
+    src: url("../font/HANYGO230.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -81,15 +81,35 @@ section.menu_body > div {width:100%;height:300px; border:1px solid red;}
 
 /***********************************************/
 /*
+    franchisee.html
     franchise font color background-color
 */
-div.franch_body {margin:auto;text-align: center;}
-div.franch_body section {width: 40%; text-align: center;margin: auto; font-weight: bold;}
-div.franch_body section div {padding: 10px;}
+div.franch_body {margin:auto;text-align: center; font-weight: bold;font-family: HANYGO230;}
+div.franch_body section {width: 40%; text-align: center;margin: auto;}
+div.franch_body section div {padding: 10px;border-radius: 50px;} /* 둥근 모서리 */
+
+/* franchisee process style */
 .yellow_font {color:goldenrod;}
 .white_font {color:whitesmoke;}
 .gold_back {background-color:rgb(228, 194, 84);}
 .black_back {background-color: black;}
+
+
+.franch_body article.support > div {
+    width: 80%;
+    height: 100%;
+    margin: auto; display: inline-block; text-align: center;
+}
+.franch_body article.support > div > div {
+    border-radius: 50px;    /* 둥근 모서리 */
+    float: left;
+    width: 31%;
+    height: 300px;
+    margin-left:5px;
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 2px black;
+}
 
 /***********************************************/
 /*
