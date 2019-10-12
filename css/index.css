@@ -110,6 +110,15 @@ div.franch_body section div {padding: 10px;border-radius: 50px;} /* 둥근 모�
     background-size: 100% 100%;
     box-shadow: 2px 2px 2px black;
 }
+/**********************************************franchisee*/
+
+/***********************************************/
+/*
+    counsel.html
+*/
+div.counsel_body {text-align: center;font-family: HANYGO230;}
+div.counsel_body > div.contact {background-color: whitesmoke; background-size: 100% 100%; width:35%;}
+/**********************************************counsel*/
 
 /***********************************************/
 /*
