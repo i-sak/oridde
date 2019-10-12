@@ -1,6 +1,15 @@
 /* 초기화 */
 body {margin: 0px;padding: 0px;width:100%;}
 
+/* font 등록 
+한컴 윤고딕 230 */
+@font-face {
+    font-family: "HANYGO230";
+    src: url("font/HANYGO230.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 /* header */
 header#top {width: auto;}
 div#header { width:1200px; margin:auto; /*border:red solid 1px;*/}
@@ -70,7 +79,17 @@ section.section3 {
 section.menu_body > div {width:100%;height:300px; border:1px solid red;}
 
 
-
+/***********************************************/
+/*
+    franchise font color background-color
+*/
+div.franch_body {margin:auto;text-align: center;}
+div.franch_body section {width: 40%; text-align: center;margin: auto; font-weight: bold;}
+div.franch_body section div {padding: 10px;}
+.yellow_font {color:goldenrod;}
+.white_font {color:whitesmoke;}
+.gold_back {background-color:rgb(228, 194, 84);}
+.black_back {background-color: black;}
 
 /***********************************************/
 /*
