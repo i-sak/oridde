@@ -15,7 +15,7 @@ header#top {width: auto;}
 div#header { width:1200px; margin:auto; /*border:red solid 1px;*/}
 div#header > div.main_logo {float: left; /*border:blue solid 1px;*/}
 div#header > div.main_logo > a > img {width: 300px;}  /* logo img */
-
+hr.header_hr{clear:both; visibility:hidden;}    /* visibility 공간은 차지*/
 /* nav */
 nav ul {list-style: none;}
 nav > ul > li {float: left; 
@@ -34,12 +34,21 @@ nav > ul > li:hover ul {
 }
 /* nav 글씨 꾸미기 */
 /* nav > ul > li > a {} */
-nav > ul > li > a {text-decoration: none;color:black;font-weight: bold;}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
 nav > ul > li > a:active {text-decoration: none;color:black;}
 nav > ul > li > a:visited {text-decoration: none;color:black;}
-nav > ul > li > ul > li > a {text-decoration: none;color:black;}
+nav > ul > li > ul > li a {text-decoration: none;color:black;
+    transition:background-color 1s;
+}
+nav > ul > li > ul > li a:hover {background: yellowgreen;}
 nav > ul > li > ul > li > a:active {text-decoration: none;color:black;}
 nav > ul > li > ul > li > a:visited {text-decoration: none;color:black;}
+
 
 /* section 1*/
 section.main_section {width : 100%;}
@@ -50,7 +59,9 @@ section.section2 {width:100%; padding-top: 10px;}
 section.section2 > div { /* img box 중앙 정렬 위한 box */
     display: inline-block;
     margin: auto;
+    margin-bottom: 3%;
     text-align: center;
+
     /*width: 1200px;
     /*height: 490px;*/
 }
@@ -59,14 +70,18 @@ div.img_frame {
     display: inline-block;
     /*float: left;*/
     text-align: center;
-    width: 350px;
+    /*width: 350px;*/
     margin: 20px;
 }
-div.img_frame > img {
+div.img_frame img {
     margin: 3px;
     width:100%; /*290px;*/
-    height: 100%; /*400px;*/
+    /*height: 100%; /*400px;*/
 }
+div.img_frame img:hover{
+    box-shadow: 2px 2px 2px lightgray, 0px 0px 30px lightgray;
+}
+
 section.section3 {
     background-color:orange; 
     clear: both; /* float 해제 */
@@ -76,7 +91,7 @@ section.section3 {
 
 /* menu */
 /* menu line border */
-section.menu_body > div {width:100%;height:300px; border:1px solid red;}
+section.menu_body > div {width:100%;height:300px; /*border:1px solid red;*/}
 
 
 /***********************************************/
