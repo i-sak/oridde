@@ -79,7 +79,7 @@ div.img_frame img {
     /*height: 100%; /*400px;*/
 }
 div.img_frame img:hover{
-    box-shadow: 2px 2px 2px lightgray, 0px 0px 30px lightgray;
+    box-shadow: 2px 2px 10px lightgray, 0px 0px 50px lightgray, 0px 0px lightgray;
 }
 
 section.section3 {
