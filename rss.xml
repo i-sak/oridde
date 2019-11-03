@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>웰씬오리떼</title>
+    <link>http://www.oridde.co.kr</link>
+    <description>오리고기 전문점, 오리고기맛집 웰씬오리떼</description>
+    <item>
+      <title>웰씬오리떼 소개</title>
+      <link>https://isaac7263.github.io/oridde/intro.html</link>
+      <description>저렴한 가격으로 한가지 메뉴가 아닌 여러 가지 메뉴를 한번에 먹을 수 있다.</description>
+      <pubDate>2019-10-15</pubDate>
+      <guid>https://isaac7263.github.io/oridde/intro.html</guid>
+    </item>
+    <item>
+      <title>웰씬오리떼 오리이야기</title>
+      <link>https://isaac7263.github.io/oridde/ori.html</link>
+      <description>맛이 달고 짜며 성질은 평하며 허한 것을 돕고 열을 덜어 주며 장부를 편하게 한다.</description>
+      <pubDate>2019-10-15</pubDate>
+      <guid>https://isaac7263.github.io/oridde/ori.html</guid>
+    </item>
+  </channel>
+</rss>
