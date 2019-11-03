@@ -1,2 +1,2 @@
-# duck
-welssin duck dde
+# Welssin Oridde
+Welssin Oridde Web-Site
