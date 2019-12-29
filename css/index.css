@@ -11,30 +11,43 @@ body {margin: 0px;padding: 0px;width:100%;}
 }
 
 /* header */
-header#top {width: auto;}
-div#header { width:1200px; margin:auto; /*border:red solid 1px;*/}
-div#header > div.main_logo {float: left; /*border:blue solid 1px;*/}
-div#header > div.main_logo > a > img {width: 300px;}  /* logo img */
+#header{margin: auto 15%; text-align: center;}
+nav {display: none;}
+nav ul {list-style: none; float: left;}
+/* 메인 로고 left */
+div#header > div.main_logo {display: inline-block;}
+div#header > nav {display: inline-block; }
+div#header > div.main_logo > a > img {width: 80%;}  /* logo img */
 hr.header_hr{clear:both; visibility:hidden;}    /* visibility 공간은 차지*/
 /* nav */
-nav ul {list-style: none;}
-nav > ul > li {float: left; 
-    padding:50px;
-    /*border: orchid 1px solid;*/}
-nav > ul ul {   /* 상세메뉴 */
+nav > ul {
+    margin-top: 10%;
+    padding-left: 0;
+    position: relative;
+    bottom: 50px;
+}
+nav > ul > li { 
+    display: inline-block;
+    width: 150px;
+    
+}
+
+/* 상세메뉴 */
+nav > ul ul {   
     /*border:red 1px solid;*/
+    width: 150px;
     padding-left: 0;
     /* 평상시에 서브메뉴 안보이도록 하기 */
     display: none;
     position:absolute;
     /*z-index: 2;*/
 }
+/* 마우스 커서 올리면 서브메뉴 보이게 하기 */ 
 nav > ul > li:hover ul {
-    display: block; /* 마우스 커서 올리면 서브메뉴 보이게 하기 */ 
+    display: block; 
 }
-/* nav 글씨 꾸미기 */
-/* nav > ul > li > a {} */
 
+/* nav 글씨 꾸미기 */
 nav > ul > li > a {
     text-decoration: none;
     color:black;
@@ -48,6 +61,17 @@ nav > ul > li > ul > li a {text-decoration: none;color:black;
 nav > ul > li > ul > li a:hover {background: yellowgreen;}
 nav > ul > li > ul > li > a:active {text-decoration: none;color:black;}
 nav > ul > li > ul > li > a:visited {text-decoration: none;color:black;}
+
+/* view_mobile button controll */
+div#mob_btn_div {text-align: center;}
+div#mob_btn_div img.mob_btn {
+    border-radius: 50%;
+    width: 12%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 6%;
+}
+
 
 
 /* section 1*/
