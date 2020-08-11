@@ -123,7 +123,8 @@ div.franch_body section div {padding: 10px;border-radius: 50px;} /* 둥근 모�
 /* franshise img */
 .fc_img{ width: 100%;}
 .fc_foot_box{margin: 15%;}
-.franchImageBox {width: 100%;}
+#franchMiddleTitle{width: 120%;}
+
 
 /* franchise process style */
 .yellow_font {color:goldenrod;}
