@@ -117,13 +117,13 @@ section.menu_body > div {width:100%;height:300px; /*border:1px solid red;*/}
     franchise font color background-color
 */
 div.franch_body {margin:auto;text-align: center; font-weight: bold;font-family: HANYGO230;}
-div.franch_body section {width: 40%; text-align: center;margin: auto;}
+div.franch_body section {width: 70%; text-align: center;margin: auto;}
 div.franch_body section div {padding: 10px;border-radius: 50px;} /* 둥근 모서리 */
 
-/* franshise img */
+/* franshise footer img */
 .fc_img{ width: 100%;}
-.fc_foot_box{margin: 15%;}
-#franchMiddleTitle{width: 120%;}
+.fc_foot_box{margin: 20%;}
+#franchMiddleTitle{border-bottom: 1px solid black;}
 
 
 /* franchise process style */
@@ -134,18 +134,16 @@ div.franch_body section div {padding: 10px;border-radius: 50px;} /* 둥근 모�
 
 
 .franch_body article.support > div {
-    width: 80%;
-    height: 100%;
     margin: auto; display: inline-block; text-align: center;
 }
 .franch_body article.support > div > div {
     border-radius: 50px;    /* 둥근 모서리 */
-    float: left;
-    width: 31%;
-    height: 300px;
-    margin-left:5px;
+    display: inline-block;
+    margin: 2%;
+    width: 300px;
+    padding: 2%;
+    
     background-color: whitesmoke;
-    background-size: 100% 100%;
     box-shadow: 2px 2px 2px black;
 }
 /**********************************************franchisee*/
