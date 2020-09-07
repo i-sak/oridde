@@ -157,8 +157,10 @@ padding-top: 10%;}
 .int_sec2_number{ color:#ffd000ec; font-size: 250%}
 .introSerction3 {
     background-color: rgb(244, 255, 253);
+    margin: 0 10%;
     color:#967141;
 }
+.intro_ori_char {padding:5%;}
 
 /***********************************************/
 /*
