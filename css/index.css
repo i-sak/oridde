@@ -118,10 +118,10 @@ section.menu_body > div {width:100%;height:300px; /*border:1px solid red;*/}
     width: 80%;
     padding: 0 10%;
 }
-.introheader1 {width:50%; margin: 5% auto;}
-.introheader2 {width:70%; margin-bottom: 5%;}
+.introheader1 {width:65%; margin: 5% auto;}
+.introheader2 {width:85%; margin-bottom: 5%;}
 .introSerction1 {display: inline-block; text-align: left;}
-.introSerction2 {text-align: left;}
+
 .int_sec_box1 {
     display: inline-block;
     background-color:#ffd000ec;
@@ -143,10 +143,23 @@ section.menu_body > div {width:100%;height:300px; /*border:1px solid red;*/}
 padding-top: 10%;}
 .red{ color:red;}
 
+.introSerction2 {text-align: left; margin-left: 10%; padding: 2%;
+    border-left: 2px solid black;
+}
+.introSerction2 strong {color:red;}
+.introSerction2 .int_sec2_sub {
+    background-color: rgb(235, 225, 217);
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.int_sec2_number{ color:#ffd000ec; font-size: 250%}
 .introSerction3 {
     background-color: rgb(244, 255, 253);
     color:#967141;
 }
+
 /***********************************************/
 /*
     franchisee.html
